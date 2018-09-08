@@ -107,7 +107,7 @@ class Player extends Component {
                  Srvup.com
               </MenuItem>
             </ContextMenu>
-              </ContextMenuTrigger>
+              
              <video 
                controls={showControls} 
                src={url} 
@@ -126,7 +126,7 @@ class Player extends Component {
 
 
                </video>
-  
+        </ContextMenuTrigger>
 
           
 
